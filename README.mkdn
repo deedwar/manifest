@@ -1,0 +1,25 @@
+Getting Started
+---------------
+
+To get started with Android/CyanogenMod, you'll need to get
+familiar with [Git and Repo](http://source.android.com/download/using-repo).
+
+To initialize your local repository using the CyanogenMod trees, use a command like this:
+
+    repo init -u git://github.com/deedwar/manifest.git -b beanstalk
+
+Then to sync up:
+
+    repo sync
+
+Please see the [CyanogenMod Wiki](http://wiki.cyanogenmod.org/) for building instructions.
+
+For more information on this Github Organization and how it is structured, 
+please [read the wiki article](http://wiki.cyanogenmod.org/index.php/Github_Organization)
+
+Buildbot
+--------
+
+All supported devices are built nightly and periodically as changes are committed to ensure the source trees remain buildable.
+
+You can view the current build statuses at [CyanogenMod Jenkins](http://jenkins.cyanogenmod.org/)
