@@ -1,0 +1,4 @@
+manifest
+========
+
+ROM Manifest
