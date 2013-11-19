@@ -1,4 +1,0 @@
-manifest
-========
-
-ROM Manifest
