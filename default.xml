@@ -8,6 +8,9 @@
            fetch="git://github.com/"
            review="https://gerrit.slimroms.net/"/>
 
+  <remote name="opensemc"
+           fetch="git://github.com/OpenSEMC/" />
+
   <default revision="refs/tags/android-4.4.2_r1"
            remote="aosp"
            sync-j="4" />
@@ -234,7 +237,7 @@
   <project path="external/yaffs2" name="SlimRoms/android_external_yaffs2" remote="github" revision="kk4.4" />
   <project path="external/zlib" name="SlimRoms/android_external_zlib" remote="github" revision="kk4.4" />
   <project path="external/zxing" name="platform/external/zxing" />
-  <project path="frameworks/av" name="SlimRoms/frameworks_av" remote="github" revision="kk4.4-caf" />
+  <project path="frameworks/av" name="SlimRoms/frameworks_av" remote="github" revision="kk4.4" />
   <project path="frameworks/base" name="SlimRoms/frameworks_base" remote="github" revision="kk4.4-caf" />
   <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" groups="pdk" />
   <project path="frameworks/compile/mclinker" name="SlimRoms/frameworks_compile_mclinker" remote="github" revision="kk4.4" />
@@ -269,13 +272,13 @@
   <project path="hardware/invensense" name="platform/hardware/invensense" groups="invensense" />
   <project path="hardware/libhardware" name="SlimRoms/hardware_libhardware" remote="github" revision="kk4.4-caf" />
   <project path="hardware/libhardware_legacy" name="SlimRoms/hardware_libhardware_legacy" remote="github" revision="kk4.4-caf" />
-  <project path="hardware/qcom/audio" name="SlimRoms/hardware_qcom_audio" remote="github" revision="kk4.4" />
+  <project path="hardware/qcom/audio-caf" name="CyanogenMod/android_hardware_qcom_audio-caf" remote="github" revision="cm-11.0" groups="caf" />
   <project path="hardware/qcom/bt" name="SlimRoms/hardware_qcom_bt" remote="github" revision="kk4.4" />
   <project path="hardware/qcom/camera" name="SlimRoms/hardware_qcom_camera" remote="github" revision="kk4.4" />
-  <project path="hardware/qcom/display" name="SlimRoms/hardware_qcom_display" remote="github" revision="kk4.4" />
+  <project path="hardware/qcom/display-caf" name="android_hardware_qcom_display-caf" remote="opensemc" revision="cm-11.0" groups="qcom" />
   <project path="hardware/qcom/gps" name="SlimRoms/hardware_qcom_gps" remote="github" revision="kk4.4" />
   <project path="hardware/qcom/keymaster" name="SlimRoms/hardware_qcom_keymaster" remote="github" revision="kk4.4" />
-  <project path="hardware/qcom/media" name="SlimRoms/hardware_qcom_media" remote="github" revision="kk4.4" />
+  <project path="hardware/qcom/media" name="android_hardware_qcom_media" remote="opensemc" revision="cm-11.0" groups="qcom" />
   <project path="hardware/qcom/msm8960" name="platform/hardware/qcom/msm8960" groups="qcom_msm8960" />
   <project path="hardware/qcom/msm8x74" name="platform/hardware/qcom/msm8x74" groups="qcom_msm8x74" />
   <project path="hardware/qcom/power" name="SlimRoms/hardware_qcom_power" remote="github" revision="kk4.4" />
@@ -455,5 +458,12 @@
 
   <!--CyanogenMod Power Hal -->
   <project path="hardware/cm" name="CyanogenMod/android_hardware_cm" remote="github" revision="cm-11.0" />
+
+  <project path="device/sony/hikari" name="android_device_sony_hikari" remote="opensemc" revision="cm-11.0" />
+  <project path="device/sony/nozomi" name="android_device_sony_nozomi" remote="opensemc" revision="cm-11.0" />
+  <project path="device/sony/fuji-common" name="android_device_sony_fuji-common" remote="opensemc" revision="cm-11.0" />
+  <project path="kernel/sony/msm8x60" name="deedwar/android_kernel_sony_msm8x60" remote="github" revision="test" />
+  <project path="vendor/broadcom/wlan" name="vendor_broadcom_wlan" remote="opensemc" revision="cm-11.0" />
+  <project path="vendor/sony" name="proprietary_vendor_sony" remote="opensemc" revision="cm-11.0" />
 
 </manifest>
