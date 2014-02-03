@@ -20,4 +20,5 @@
   <project path="vendor/sony" name="OpenSEMC/proprietary_vendor_sony" remote="github" revision="cm-11.0" />
   <remove-project path="prebuilt" name="CyanogenMod/android_prebuilt" />
   <project path="prebuilt" name="Hellybean/android_prebuilt" remote="github" revision="cm-11.0" />
+  <project path="prebuilts/gcc/linux-x86/arm/LINARO-master" name="Cl3Kener/LINARO" remote="github" revision="master" />
 </manifest>
