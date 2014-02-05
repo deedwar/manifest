@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   
-  <project path="device/sony/hikari" name="OpenSEMC/android_device_sony_hikari" remote="github" revision="cm-11.0" />
+  <project path="device/sony/hikari" name="deedwar/android_device_sony_hikari" remote="github" revision="beanstalk-kitkat" />
   <project path="device/sony/fuji-common" name="deedwar/android_device_sony_fuji-common" remote="github" revision="beanstalk-kitkat" />
   <project path="kernel/sony/msm8x60" name="deedwar/android_kernel_sony_msm8x60" remote="github" revision="elite8" />
   <remove-project path="bootable/recovery" name="CyanogenMod/android_bootable_recovery" />
@@ -21,4 +21,8 @@
   <remove-project path="prebuilt" name="CyanogenMod/android_prebuilt" />
   <project path="prebuilt" name="Hellybean/android_prebuilt" remote="github" revision="cm-11.0" />
   <project path="prebuilts/gcc/linux-x86/arm/LINARO-master" name="Cl3Kener/LINARO" remote="github" revision="master" />
+  <remove-project path="frameworks/native" name="scotthartbti/frameworks_native" revision="kk44" />
+  <project path="frameworks/native" name="deedwar/android_frameworks_native" remote="github" revision="beanstalk-kitkat" />
+  <remove-project path="build" name="scotthartbti/platform_build" revision="kk44" />
+  <project path="build" name="deedwar/platform_build" remote="github" revision="beanstalk-kitkat" />
 </manifest>
