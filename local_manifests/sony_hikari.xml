@@ -23,6 +23,11 @@
   <project path="prebuilts/gcc/linux-x86/arm/LINARO-master" name="Cl3Kener/LINARO" remote="github" revision="master" />
   <remove-project path="frameworks/native" name="scotthartbti/frameworks_native" revision="kk44" />
   <project path="frameworks/native" name="deedwar/android_frameworks_native" remote="github" revision="beanstalk-kitkat" />
-  <remove-project path="build" name="scotthartbti/platform_build" revision="kk44" />
-  <project path="build" name="deedwar/platform_build" remote="github" revision="beanstalk-kitkat" />
+
+  <remove-project path="build" name="scotthartbti/platform_build" revision="kk44" >
+    <copyfile src="core/root.mk" dest="Makefile" />
+  </project>
+  <project path="build" name="deedwar/platform_build" remote="github" revision="beanstalk-kitkat" >
+    <copyfile src="core/root.mk" dest="Makefile" />
+  </project>
 </manifest>
