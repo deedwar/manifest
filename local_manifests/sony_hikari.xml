@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   
-  <project path="device/sony/hikari" name="deedwar/android_device_sony_hikari" remote="github" revision="paranoid-kitkat" />
+  <project path="device/sony/hikari" name="deedwar/android_device_sony_hikari" remote="github" revision="paranoid-kk" />
   <project path="device/sony/nozomi" name="deedwar/android_device_sony_nozomi" remote="github" revision="paranoid-kitkat" />
-  <project path="device/sony/fuji-common" name="deedwar/android_device_sony_fuji-common" remote="github" revision="paranoid-kitkat" />
-  <project path="kernel/sony/msm8x60" name="deedwar/evolve" remote="github" revision="evolve-1.6" />
+  <project path="device/sony/fuji-common" name="deedwar/android_device_sony_fuji-common" remote="github" revision="paranoid-kk" />
+  <project path="kernel/sony/msm8x60" name="deedwar/evolve" remote="github" revision="evolve-1.9" />
   <remove-project path="bootable/recovery" name="platform/bootable/recovery" groups="pdk" />
-  <project path="bootable/recovery" name="OpenSEMC/android_bootable_recovery" remote="github" revision="twrp2.7-kk" />
-  <project path="hardware/qcom/bt" name="OpenSEMC/android_hardware_qcom_bt" remote="github" revision="cm-11.0" groups="qcom" />
+  <project path="bootable/recovery" name="deedwar/android_bootable_recovery" remote="github" revision="twrp2.7-kk" />
+  <project path="hardware/qcom/bt" name="CyanogenMod/android_hardware_qcom_bt" remote="github" revision="cm-11.0" groups="qcom" />
   <project path="hardware/qcom/gps" name="CyanogenMod/android_hardware_qcom_gps" groups="qcom" remote="github" revision="cm-11.0"/>
-  <project path="hardware/qcom/media" name="deedwar/android_hardware_qcom_media" remote="github" revision="cm-11.0" groups="qcom" />
+  <project path="hardware/qcom/media" name="AOSPAL/android_hardware_qcom_media" remote="github" revision="kitkat" groups="qcom" />
   <project path="hardware/qcom/audio-caf" name="CyanogenMod/android_hardware_qcom_audio-caf" groups="caf" remote="github" revision="cm-11.0"/>
   <project path="hardware/qcom/display-caf" name="CyanogenMod/android_hardware_qcom_display-caf" groups="caf" remote="github" revision="cm-11.0"/>
   <project path="vendor/broadcom/wlan" name="OpenSEMC/vendor_broadcom_wlan" remote="github" revision="cm-11.0" />
@@ -19,6 +19,6 @@
   <project path="packages/apps/Trebuchet" name="CyanogenMod/android_packages_apps_Trebuchet" remote="github" revision="cm-11.0" />
   <project path="packages/apps/LockClock" name="CyanogenMod/android_packages_apps_LockClock" remote="github" revision="cm-11.0" />
   <remove-project path="vendor/pa" name="AOSPA-legacy/android_vendor_pa" remote="github" revision="kitkat" />
-  <project path="vendor/pa" name="deedwar/android_vendor_pa" remote="github" revision="paranoid-kitkat" />
+  <project path="vendor/pa" name="deedwar/android_vendor_pa" remote="github" revision="paranoid-kk" />
 
 </manifest>
