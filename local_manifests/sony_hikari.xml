@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <project path="device/sony/hikari" name="deedwar/android_device_sony_hikari" remote="github" revision="slimkat" />
+  <project path="device/sony/fuji-common" name="deedwar/android_device_sony_fuji-common" remote="github" revision="slimkat" />
+  <project path="kernel/sony/msm8x60" name="deedwar/evolve" remote="github" revision="evolve-1.15" />
+  <project path="vendor/broadcom/wlan" name="OpenSEMC/vendor_broadcom_wlan" remote="github" revision="cm-11.0" />
+  <project path="vendor/sony" name="OpenSEMC/proprietary_vendor_sony" remote="github" revision="cm-11.0" />
+  <remove-project path="hardware/qcom/media" name="SlimRoms/hardware_qcom_media" remote="github" revision="kk4.4" />
+  <project name="OpenSEMC/android_hardware_qcom_media" path="hardware/qcom/media" remote="github" revision="cm-11.0" />
+  <project name="CyanogenMod/android_hardware_qcom_audio-caf" path="hardware/qcom/audio-caf" remote="github" revision="cm-11.0" />
+  <project name="CyanogenMod/android_hardware_qcom_display-caf" path="hardware/qcom/display-caf" remote="github" revision="cm-11.0" />
+</manifest>
