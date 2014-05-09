@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  
+  <project path="device/sony/hikari" name="OpenSEMC/android_device_sony_hikari" remote="github" revision="cm-11.0" />
+  <project path="device/sony/nozomi" name="deedwar/android_device_sony_nozomi" remote="github" revision="paranoid-kitkat" />
+  <project path="device/sony/fuji-common" name="deedwar/android_device_sony_fuji-common" remote="github" revision="beanstalk-kitkat" />
+  <project path="kernel/sony/msm8x60" name="deedwar/evolve" remote="github" revision="evolve-2.3" />
+  <remove-project path="bootable/recovery" name="CyanogenMod/android_bootable_recovery" />
+  <project path="bootable/recovery" name="omnirom/android_bootable_recovery" remote="github" revision="android-4.4" />
+  <project path="vendor/broadcom/wlan" name="OpenSEMC/vendor_broadcom_wlan" remote="github" revision="cm-11.0" />
+  <project path="vendor/sony" name="OpenSEMC/proprietary_vendor_sony" remote="github" revision="cm-11.0" />
+  <remove-project path="hardware/qcom/media" name="CyanogenMod/android_hardware_qcom_media" groups="qcom" />
+  <project path="hardware/qcom/media" name="OpenSEMC/android_hardware_qcom_media" revision="cm-11.0" groups="qcom" />
+  <remove-project path="hardware/qcom/audio-caf" name="CyanogenMod/android_hardware_qcom_audio-caf" groups="caf" />
+  <project path="hardware/qcom/audio-caf" name="CyanogenMod/android_hardware_qcom_audio-caf" revision="cm-11.0" groups="caf" />
+  <remove-project path="packages/apps/StalkExplorer" name="scotthartbti/android_packages_apps_StalkExplorer" revision="kk44" />
+  <remove-project path="packages/apps/Trebuchet" name="CyanogenMod/android_packages_apps_Trebuchet" />
+  <project path="prebuilt/linux-x86/toolchain/LINARO-KERNEL" name="UBERUTILS/LINARO-KERNEL" remote="github" revision="master" />
+  <project path="prebuilts/gcc/linux-x86/arm/LINARO-master" name="UBERUTILS/LINARO" remote="github" revision="master" />
+</manifest>
