@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <project path="device/sony/hikari" name="deedwar/android_device_sony_hikari" remote="github" revision="aosp-pa" />
+  <remove-project path="bootable/recovery" name="platform/bootable/recovery" groups="pdk" />
+  <project path="bootable/recovery" name="apology11/aosp_bootable_recovery" remote="github" revision="aosp-4.4" />
+  <remove-project path="hardware/broadcom/libbt" name="platform/hardware/broadcom/libbt" groups="pdk" />
+  <project path="hardware/broadcom/libbt" name="deedwar/aosp_hardware_broadcom_libbt" remote="github" revision="aosp-4.4" />
+  <project path="packages/apps/Camera" name="platform/packages/apps/Camera" />
+  <project path="packages/apps/Gallery" name="platform/packages/apps/Gallery" />
+</manifest>

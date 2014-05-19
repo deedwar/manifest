@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Please do not manually edit this file-->
+<manifest>
+  <project name="AOSPA/android_hardware_qcom_power" path="hardware/qcom/power" remote="github" revision="kitkat" />
+  <project name="deedwar/aosp_vendor_sony_hikari" path="vendor/sony/hikari" remote="github" revision="hikari" />
+  <project name="deedwar/kernel_sony_msm8x60" path="kernel/nozomi" remote="github" revision="aosp-0.1" />
+  <project name="AOSPA/android_hardware_qcom_display" path="hardware/qcom/display" remote="github" revision="kitkat" />
+  <project name="platform/hardware/qcom/media" path="hardware/qcom/media" remote="aosp" revision="refs/tags/android-4.4.2_r1" />
+  <project name="platform/hardware/qcom/wlan" path="hardware/qcom/wlan" remote="aosp" revision="refs/tags/android-4.4.2_r1" />
+  <project name="platform/hardware/qcom/audio" path="hardware/qcom/audio" remote="aosp" revision="refs/tags/android-4.4.2_r1" />
+  <project name="platform/hardware/qcom/bt" path="hardware/qcom/bt" remote="aosp" revision="refs/tags/android-4.4.2_r1" />
+  <project name="platform/hardware/qcom/msm8960" path="hardware/qcom/msm8960" remote="aosp" revision="refs/tags/android-4.4.2_r1" />
+  <project name="platform/hardware/qcom/msm8x74" path="hardware/qcom/msm8x74" remote="aosp" revision="refs/tags/android-4.4.2_r1" />
+  <project name="platform/hardware/qcom/keymaster" path="hardware/qcom/keymaster" remote="aosp" revision="refs/tags/android-4.4.2_r1" />
+  <project name="platform/hardware/qcom/sensors" path="hardware/qcom/sensors" remote="aosp" revision="refs/tags/android-4.4.2_r1" />
+</manifest>
