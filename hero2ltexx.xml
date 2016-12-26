@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<manifest>
+  <project path="vendor/samsung/hero2ltexx" name="deedwar/vendor_samsung_hero2ltexx" revision="master"/>
+  <project path="device/samsung/hero2ltexx" name="deedwar/android_device_hero2ltexx" revision="master"/>
+  <project path="kernel/samsung/exynos8890" name="deedwar/exynos8890_stock" revision="cm-13.0"/>
+  <project path="external/stlport" name="CyanogenMod/android_external_stlport" />
+  <project path="packages/apps/SamsungServiceMode" name="CyanogenMod/android_packages_apps_SamsungServiceMode" />
+  <project path="hardware/samsung" name="CyanogenMod/android_hardware_samsung" />
+  <project path="hardware/samsung_slsi-cm/exynos" name="deedwar/android_hardware_samsung_slsi-cm_exynos" revision="cm-13.0"/>
+  <project path="hardware/samsung_slsi-cm/exynos5" name="deedwar/android_hardware_samsung_slsi-cm_exynos5" revision="cm-13.0"/>
+  <project path="hardware/samsung_slsi-cm/exynos8890" name="deedwar/android_hardware_samsung_slsi-cm_exynos8890" revision="master"/>
+  <project path="hardware/samsung_slsi-cm/openmax" name="CyanogenMod/android_hardware_samsung_slsi-cm_openmax" />
+</manifest>
+
+
